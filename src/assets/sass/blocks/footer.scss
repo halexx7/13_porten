@@ -1,0 +1,102 @@
+.footer__top {
+    padding: 5rem 0 5.6rem 0;
+
+    background: url(../img/footer.jpg) center center no-repeat;
+}
+
+.footer__title {
+    margin-bottom: 2.5rem;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: $white;
+}
+
+.footer__top-link {
+    margin-bottom: 1.75rem;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 150%;
+    color: $white;
+}
+
+.footer-link {
+    padding: .625rem 1.25rem;
+    margin-right: 1.25rem;
+
+    background-color: $black_ligth;
+
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 150%;
+    color: $gray_light;
+}
+
+.footer__subs {
+    position: relative;
+}
+
+.footer__input {
+    padding: .875rem 0 .875rem .625rem;
+    width: 100%;
+
+    opacity: 0.4;
+    border: none;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 150%;
+        color: $black;
+    }
+}
+
+.footer__btn {
+    padding: .730rem 1.25rem;
+
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+    background: $black;
+
+    font-weight: 400;
+    font-size: 0.875;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: $white;
+    text-transform: uppercase;
+
+    border: none;
+    outline: none;
+}
+
+.footer__bottom {
+    min-height: 3.125rem;
+}
+
+.footer__copy-text {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $gray_light;
+
+    &::before {
+        content: '\00A9';
+        margin-right: .5rem;
+    }
+}
+
+.footer__dev-text {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $gray_light;
+    text-decoration: underline;
+}

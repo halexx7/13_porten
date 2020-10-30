@@ -9,6 +9,8 @@ html {
 body {
     margin: 0;
 
+    background-color: $black;
+
     //font-family: 'Playfair Display', serif;
     font-family: 'PT Sans', sans-serif;
     color: $white;
@@ -33,6 +35,23 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1920px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 
 /* Bootstrap */
 @import "../../../node_modules/bootstrap/scss/functions";
@@ -45,3 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Blocks */
 @import "blocks/header";
 @import "blocks/intro";
+@import "blocks/new-session";
+@import "blocks/old-collection";
+@import "blocks/products";
+@import "blocks/brands";
+@import "blocks/footer";

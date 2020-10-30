@@ -1,0 +1,30 @@
+.old-collection__left {
+    background: url(../img/old-collection.jpg) center center no-repeat;
+
+    font-size: 0;
+    color: transparent;
+}
+
+.old-collection__rigth {
+    padding: 6.25rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.old-collection__text {
+    margin-top: 2.5rem;
+    max-width: 471px;
+
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 150%;
+    text-align: center;
+    color: $white;
+}
+
+.old-collection__btn {
+    margin-top: 3.8rem;
+    max-width: 316px;
+}

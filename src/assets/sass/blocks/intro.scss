@@ -1,0 +1,37 @@
+.intro {
+    min-height: 810px;
+
+    background: url(../img/first-screen.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.intro__body {
+    padding-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__item {
+    width: 320px;
+    height: 320px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid $white;
+}
+
+.intro__text {
+    max-width: 720px;
+    margin-top: 5rem;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+}

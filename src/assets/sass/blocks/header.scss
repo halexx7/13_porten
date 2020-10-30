@@ -1,1 +1,159 @@
+.topband__row {
+    padding: 1.14rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topband__info {
+    display: flex;
+
+    align-items: center;
+}
+
+.topband__item {
+    padding-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $gray;
+
+    position: relative;
+
+    &:first-child {
+        padding-left: 36px;
+    }
+
+    &:first-child::before {
+        content: url(../img/eva_phone-outline.svg);
+
+        padding-right: 1rem;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &:nth-child(2)::before {
+        content: "";
+
+        width: 1px;
+        height: .6rem;
+        background-color: $gray;
+
+        position: absolute;
+        top: .2rem;
+        left: -.5rem;
+    }
+
+    &:nth-child(2)::after {
+        content: "";
+
+        width: 1px;
+        height: .6rem;
+        background-color: $gray;
+
+        position: absolute;
+        top: .2rem;
+        right: .5rem;
+    }
+}
+
+.topband__sign-in {
+
+    position: relative;
+
+    &::before {
+        content: url(../img/ic_sharp-log-in.svg);
+
+        position: absolute;
+        top: .2rem;
+        left: -.5rem;
+    }
+}
+
+.topband__link {
+    padding-left: 1rem;
+
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $gray;
+}
+
+.header {
+    background-color: $black_ligth;
+}
+
+.header__logo {
+    padding: .94rem 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    padding: 1.93rem 1.25rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+
+    color: $white;
+}
+
+.nav__item--activ {
+    background-color: $dark_gray;
+}
+
+.header__basket {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.header__basket {
+    padding: 0 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
