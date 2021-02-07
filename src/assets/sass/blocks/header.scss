@@ -113,10 +113,10 @@
     text-transform: uppercase;
 
     color: $white;
-}
 
-.nav__item--activ {
-    background-color: $dark_gray;
+    &.activ {
+        background-color: $dark_gray;
+    }
 }
 
 .header__basket {

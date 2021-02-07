@@ -1,3 +1,37 @@
+.product__top {
+    margin: 30px 0;
+
+    background-color: $black_card;
+}
+
+.submenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+
+    & li {
+        margin: 0 30px;
+
+        & a {
+            font-size: 14px;
+            color: lighten($black, 60%);
+            text-transform: uppercase;
+
+            &:hover {
+                font-weight: 900;
+                color: $white;
+            }
+        }
+    }
+
+    & .submenu--activ {
+        font-weight: 900;
+        color: $white;
+    }
+}
+
+
 .products {
     padding-top: 7.5rem;
     padding-bottom: 9.4rem;
